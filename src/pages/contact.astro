@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout>
+  <Header current="contact" />
+
+  <section class="pt-24 pb-32 bg-zinc-950">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+      <h1 class="text-5xl font-bold tracking-tighter mb-8">Let's Ignite Your Potential</h1>
+      <p class="text-xl text-zinc-400 mb-12">Ready to create real change? Apply for a coaching conversation below.</p>
+
+      <!-- Systeme.io Form Placeholder -->
+      <div class="bg-zinc-900 p-10 rounded-3xl border border-white/10">
+        <p class="text-amber-400 mb-6">Your Systeme.io application form will go here.</p>
+        <p class="text-sm text-zinc-500">Paste your Systeme.io embed code below this comment when ready.</p>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>

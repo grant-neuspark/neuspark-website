@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout>
+  <Header current="about" />
+
+  <section class="pt-24 pb-20 bg-zinc-950">
+    <div class="max-w-4xl mx-auto px-6">
+      <h1 class="text-5xl md:text-6xl font-bold tracking-tighter mb-12">About Grant Jackson</h1>
+
+      <div class="prose prose-invert prose-lg max-w-none">
+        <p class="text-xl text-zinc-300">I'm Grant Jackson, founder of NeuSpark. I help driven individuals break free from invisible limitations and step into their highest potential.</p>
+
+        <p>My coaching blends deep mindset work with practical, results-focused strategies. Having guided many clients through major life and performance transformations, I specialize in helping people overcome self-sabotage, gain crystal clarity, and create meaningful, lasting change.</p>
+
+        <p>When I'm not coaching, I'm continuously studying human potential, psychology, and performance. My mission is simple: help you ignite the spark within and live with greater power and purpose.</p>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
